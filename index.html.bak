@@ -64,7 +64,6 @@
 			.sidebar-container .short-about .list-inline>li{padding-left:0;}
 			.list-inline>li{display:inline-block;padding-right:5px;}
 			.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle;}
-			.fa-lg{font-size:1.33333333em}
 		</style>
 	</head>
 	<body>
