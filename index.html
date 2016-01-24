@@ -48,7 +48,8 @@
 			.pager{margin:20px 0 0!important;padding:0!important;text-align:center;}
 			.pager li{display:inline;}
 			.pager .next>a{float:right;}
-			.pager li>a{color:#404040;font-size:14px;padding:15px 25px;display:inline-block;border:1px solid #ddd;line-height:1.7;text-transform:uppercase;font-weight:800;letter-spacing:1px;background-color:#fff;border-radius:0;}
+			.pager li>a{color:#404040;font-size:14px;padding:15px 25px;display:block;border:1px solid #ddd;line-height:1.7;text-transform:uppercase;font-weight:800;letter-spacing:1px;background-color:#fff;border-radius:0;}
+			.pager:hover li a{border:1px solid #0085a1;background:#0085a1;}
 			/*right part*/
 			.sidebar-container{color:#bfbfbf;font-size:14px;width:100px;height:400px;margin-top:12px;padding-left:160px;padding-right:100px;}
 			section{display:block;}
@@ -65,7 +66,23 @@
 			.list-inline>li{display:inline-block;padding-right:5px;}
 			.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle;}
 			.fa-lg{font-size:1.33333333em}
+			#top{width:60px;height:60px;position:fixed;bottom:20px;right:615px;background:#ddd;
+				cursor:pointer;
+				line-height:60px;
+				text-align:center;
+				display:none;
+			}
+			#top:hover{background:#ccc;}
+			#top .icon-up{font-size:32px;color:#fff;}
+			.footer{padding-top:120px;margin-left:60%;}
+			.footer .list-inline li{margin-right:15px;}
+			.footer .list-inline li a{color:#333;}
+			.footer .list-inline li a i{font-size:40px;float:left;}
+			.footer .copyright{font-size:14px;margin-bottom:0;}
+			.text-muted{color:#777;}
+			.footer .copyright a{color:#337ab7;}
 		</style>
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_1453622787_3288674.css">
 	</head>
 	<body>
 		<!--Navigation-->
@@ -115,19 +132,10 @@
 							</h3>
 							<div class="post-content-preview">
 								下滑这里查看更多内容
-
 								Watch Slides →
-
 								你也可以通过扫描二维码在手机上观看
-
 								这个 Web Slides 开源在我的 Github 上，欢迎你帮助我完善这个展示文稿，你可以给我提 
-								
-								issue，可以 fork & pull request。如果它能帮助到你了，希望你还能不吝啬 star 一下这个项目
-
-								Catalog
-
-								  Document Times
-								 ...
+								issue，可以 fork & pull request。如果它能帮助到你了，希望你还能不吝啬 star 一下这个项目Catalog Document Times...
 							</div>
 						</a>
 						<p class="post-meta">
@@ -146,8 +154,7 @@
 							<div class="post-content-preview">            
 							  这篇文章转载自我在知乎上的回答
 							这篇文章也被刊登于优秀网页设计等多个网站上
-							笔者的经历在知乎就可以看到，大学专业是数字媒体艺术，大一实习过动效设计师，大二拿到了人生第一个大公司 offer 是阿里的交互设计，后来转岗到淘宝旅行的前端团队，现在在微信电影票做前端研发。
-							也是走过了不少野路子，不过还好有小右哥 @尤雨溪 这样艺术/设计转前端的大神在前面做典范...
+							笔者的经历在知乎就可以看到，大学专业是数字媒体艺术，大一实习过动效设计师，大二拿到了人生第一个大公司 offer 是阿里的交互设计，后来转岗到淘宝旅行的前端团队，现在在微信电影票做前端研发。也是走过了不少野路子，不过还好有小右哥 @尤雨溪 这样艺术/设计转前端的大神在前面做典范...
 						</div>
 						</a>
 						<p class="post-meta">
@@ -165,8 +172,43 @@
 							</h3>
 							<div class="post-content-preview">
 							下滑这里查看更多内容
-							7月9日，我在公司内部进行了名为「JavaScript 模块化七日谈」分享，并将该 Slides 分享到了微博上。出乎意料地，这篇微博先后被 @JS小组 @尤小右 @寸志 等近 200 人转发，阅读达到 10w，获得了还不错的评价。
-							于是，我决定将它重新发到我的博客上，并为它专门制作了适用于 Keynote 展示文稿的新布局。它能自动根据屏幕大小/旋转以一定...
+							7月9日，我在公司内部进行了名为「JavaScript 模块化七日谈」分享，并将该 Slides 分享到了微博上。出乎意料地，这篇微博先后被 @JS小组 @尤小右 @寸志 等近 200 人转发，阅读达到 10w，获得了还不错的评价。于是，我决定将它重新发到我的博客上，并为它专门制作了适用于 Keynote 展示文稿的新布局。它能自动根据屏幕大小/旋转以一定...
+						</div>
+						</a>
+						<p class="post-meta">
+							Posted by Wat on January 22, 2016
+						</p>
+					</div>
+					<hr>
+					<div class="post-preview">
+						<a href="#">
+							<h2 class="post-title">
+								如何快速上手Codecademy
+							</h2>
+							<h3 class="subtitle">
+								Keynote: CodeCademy
+							</h3>
+							<div class="post-content-preview">
+							下滑这里查看更多内容
+							7月9日，我在公司内部进行了名为「JavaScript 模块化七日谈」分享，并将该 Slides 分享到了微博上。出乎意料地，这篇微博先后被 @JS小组 @尤小右 @寸志 等近 200 人转发，阅读达到 10w，获得了还不错的评价。于是，我决定将它重新发到我的博客上，并为它专门制作了适用于 Keynote 展示文稿的新布局。它能自动根据屏幕大小/旋转以一定...
+						</div>
+						</a>
+						<p class="post-meta">
+							Posted by Wat on January 22, 2016
+						</p>
+					</div>
+					<hr>
+					<div class="post-preview">
+						<a href="#">
+							<h2 class="post-title">
+								JavaScript 模块化七日谈
+							</h2>
+							<h3 class="subtitle">
+								Keynote: JavaScript Modularization Journey
+							</h3>
+							<div class="post-content-preview">
+							下滑这里查看更多内容
+							7月9日，我在公司内部进行了名为「JavaScript 模块化七日谈」分享，并将该 Slides 分享到了微博上。出乎意料地，这篇微博先后被 @JS小组 @尤小右 @寸志 等近 200 人转发，阅读达到 10w，获得了还不错的评价。于是，我决定将它重新发到我的博客上，并为它专门制作了适用于 Keynote 展示文稿的新布局。它能自动根据屏幕大小/旋转以一定...
 						</div>
 						</a>
 						<p class="post-meta">
@@ -179,6 +221,32 @@
 							<a href="/page2">Older Posts →</a>
 						</li>
 					</ul>
+					<div class="footer">
+						<ul class="list-inline">
+							<li>
+								<a target="_blank" href="https://www.zhihu.com/people/yizi-teng-yun">
+									<i class="iconfont icon-zhihu"></i>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://weibo.com/p/1005052781467765">
+									<i class="iconfont icon-weibo"></i>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://github.com/sakila1012">
+									<i class="iconfont icon-github"></i>
+								</a>
+							</li>
+						</ul>
+						<p class="copyright text-muted">
+							Copyright © Hux Blog 2016
+							</br>
+							Theme by
+							<a href="#">WaT</a>|
+						</p>
+					</div>
+					
 				</div>
 				<div class="col-lg-3 col-lg-offset-0
 							col-md-3 col-lg-offset-0
@@ -246,7 +314,23 @@
 						</div>
 					</section>
 				</div>
+				<div id="top"><i class="iconfont icon-up"></i></div>
 			</div>
-		</div>
+		</div>		
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(window).scroll(function(){
+					if($(this).scrollTop() > 200){
+						$("#top").show();
+					}else{
+						$("#top").hide();
+					}
+				});
+				$("#top").on("click",function(){
+					$("html,body").animate({scrollTop:0},600);
+				})
+			});
+		</script>
 	</body>
 </html>
